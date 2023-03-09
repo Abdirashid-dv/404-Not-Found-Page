@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --font-family-01 : 'Inconsolata', monospace;
+    --font-family-02 : 'Space Mono', monospace;
+}
+body{
+    background: #FFFFFF;
+    height: 100vh;
+}
+header{
+    font-family: var(--font-family-01);
+    padding: 40px 0 0 77px;
+}
+header h1{
+    line-height: 25px;
+    font-size: 24px;
+    color: #333333;
+    font-weight: 700;
+    letter-spacing: -0.08em;
+    text-transform: uppercase;
+}
+main{
+    padding: 150px 119px 24px 77px;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 118px;
+    font-family: var(--font-family-02);
+}
+img{
+    height: 447.43px;
+    width: 539.22px;
+}
+.text-box h1{
+    width: 604px;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 94.78px;
+}
+.text-box p{
+    color: #4F4F4F;
+    font-weight: 400;
+    font-size: 24px;
+    width: 400px;
+    margin-top: 36px;
+    line-height: 35.54px;
+}
+.btn{
+    width: 216px;
+    height: 68px;
+    background-color: #333333;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 64px;
+    font-family: var(--font-family-02);
+    border: 0;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #333333c7;
+}
+footer{
+    width: 100%;
+}
+footer h5{
+    font-size: 18px;
+    text-align: center;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #8e8e8e;
+    margin-top: 331px;
+}
+@media screen and (max-width:470px){
+    header{
+        padding: 20px 0 0 24px;
+    }
+    main{
+        padding: 109px 1px 70px 24px;
+    }
+    section{
+        flex-direction: column;
+        gap: 60px;
+    }
+    .text-box h1{
+        font-size: 71px;
+        line-height: 94px;
+        width: 537px;
+    }
+    .text-box p{
+        font-size: 27px;
+        width: 480px;
+        line-height: 44px;
+        margin-top: 50px;
+    }
+    .btn{
+        margin-top: 91px;
+    }
+    footer h5{
+        margin-top: 173px;
+        text-align: center;
+        width: 552px;
+    }
+}
+@media only screen and (min-width: 470px) and (max-width: 1080px){
+    section{
+        flex-direction: column;
+    }
+    footer h5{
+        text-align: center;
+    }
+}
