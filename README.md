@@ -10,7 +10,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://github.com/Abdirashid-dv/404-Not-Found-Page">
       Solution
     </a>
     <span> | </span>
